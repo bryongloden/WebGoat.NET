@@ -1,3 +1,6 @@
+# Windows Build Command
+msbuild.exe WebGoat.NET.sln /t:Clean,Build /p:RunCodeAnalysis=true
+
 ***************************** Webgoat.NET **********************************
 * Source Code: https://github.com/jerryhoff/WebGoat.NET
 * Download zip: https://github.com/jerryhoff/WebGoat.NET/zipball/master

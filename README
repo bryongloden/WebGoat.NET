@@ -1,5 +1,5 @@
 # Windows Build Command
-msbuild.exe WebGoat.NET.sln /t:Clean,Build /p:RunCodeAnalysis=true
+msbuild.exe WebGoat.NET.sln /t:Clean,Build /p:RunCodeAnalysis=false
 
 ***************************** Webgoat.NET **********************************
 * Source Code: https://github.com/jerryhoff/WebGoat.NET
